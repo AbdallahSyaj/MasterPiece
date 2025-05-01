@@ -1,0 +1,42 @@
+/* تنسيق النصوص والعناوين */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* لون خلفية هادئ */
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff; /* لون أزرق للعناوين */
+}
+
+.about-section {
+    background: linear-gradient(135deg, #007bff, #00d4ff); /* خلفية متدرجة */
+    color: white; /* لون النص أبيض */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-card {
+    background: #ffffff; /* خلفية بيضاء للبطاقات */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* تأثير ظل خفيف */
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.team-card:hover {
+    transform: scale(1.05); /* تكبير البطاقة عند التحويم */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.rounded-circle {
+    border: 3px solid #007bff; /* إطار أزرق حول الصور */
+    transition: box-shadow 0.3s;
+}
+
+.rounded-circle:hover {
+    box-shadow: 0 0 10px #007bff; /* تأثير ظل عند التحويم */
+}

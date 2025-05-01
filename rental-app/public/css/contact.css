@@ -1,0 +1,41 @@
+/* تنسيق النصوص والعناوين */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef); /* خلفية متدرجة */
+    color: #333;
+}
+
+h1, h2 {
+    color: #007bff; /* لون أزرق للعناوين */
+}
+
+.contact-form {
+    background-color: #ffffff; /* خلفية بيضاء للنموذج */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* تأثير ظل خفيف */
+    transition: transform 0.3s;
+}
+
+.contact-form:hover {
+    transform: scale(1.02); /* تكبير النموذج عند التحويم */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* تأثير ظل إضافي */
+}
+
+.btn-primary {
+    background-color: #007bff; /* لون أزرق */
+    border: none;
+    border-radius: 50px; /* زوايا مستديرة */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* تغيير اللون عند التحويم */
+    transform: scale(1.1); /* تكبير زر الإرسال */
+}
+
+textarea:focus, input:focus {
+    border-color: #007bff; /* تحديد لون الإطار عند التركيز */
+    box-shadow: 0 0 5px #007bff;
+    outline: none;
+}
